@@ -21,7 +21,6 @@ This project will run on **NodeJs** using **MongoDB** as database. I had tried t
 -   Light-weight project.
 -   Test cases with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/).
 -   Code coverage with [Istanbuljs (nyc)](https://istanbul.js.org/).
--   Included CI (Continuous Integration) with [Travis CI](https://travis-ci.org).
 -   Linting with [Eslint](https://eslint.org/).
 
 ## Software Requirements

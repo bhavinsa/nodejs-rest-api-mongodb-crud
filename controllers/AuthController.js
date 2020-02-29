@@ -273,7 +273,7 @@ exports.logout = [
 	auth,
 	(req, res) => {
 		try {
-			UserModel.findByIdAndUpdate(req.user._id, { token: '' }, function (err) {
+			UserModel.findByIdAndUpdate(req.user._id, { token: "" }, function (err) {
 				if (err) {
 					return apiResponse.ErrorResponse(res, err);
 				} else {

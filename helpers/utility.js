@@ -20,8 +20,8 @@ exports.sendEmail = function (email, otp) {
 		html
 	).then(function (res) {
 		// Save user.
-		return res
+		return res;
 	}).catch(err => {
 		return err;
 	});
-}
+};

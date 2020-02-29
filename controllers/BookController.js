@@ -238,10 +238,10 @@ exports.search = [
 	function (req, res) {
 		try {
 			const { searchKey } = req.body;
-			if (searchKey == '') {
+			if (searchKey == "") {
 				return apiResponse.ErrorResponse(res, "search text is required.");
 			}
-			Book.find({ 'title': new RegExp(searchKey, 'i') }, function (err, foundBook) {
+			Book.find({ "title": new RegExp(searchKey, "i") }, function (err, foundBook) {
 				if (err) {
 					return apiResponse.ErrorResponse(res, err);
 				} else {
