@@ -1,4 +1,4 @@
-# Nodejs Expressjs MongoDB Ready-to-use API Project Structure
+# Nodejs Expressjs MongoDB
 
 ## Getting started
 
